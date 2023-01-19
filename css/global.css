@@ -1,0 +1,41 @@
+/* block */
+.block {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.block__wrap {
+	width: 100%;
+	max-width: 1160px;
+}
+
+body {
+	font-family: "Inter";
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 120px;
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 10px 20px;
+	gap: 10px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	cursor: pointer;
+
+	transition: background 250ms ease-in-out 0ms;
+}
+
+.btn:hover {
+	background: #cfc6c6;
+}
