@@ -3,20 +3,36 @@
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 900px;
+	padding-bottom: 85px;
 }
 
 .present__wrap {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	min-height: 900px;
 }
+
 .present__title {
-	margin-top: 370px;
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 94px;
 	line-height: 100%;
 	color: #ffffff;
+	margin: 0 0 10px;
+}
+
+.present__content {
+	margin-top: auto;
+}
+
+.present__text {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 125%;
+	color: #ffffff;
+	margin: 0 0 30px;
+	max-width: 910px;
 }
