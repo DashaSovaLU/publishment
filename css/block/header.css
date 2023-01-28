@@ -3,3 +3,36 @@
 	top: 0;
 	left: 0;
 }
+
+.header__wrap {
+	display: flex;
+	align-items: center;
+}
+
+.header__nav__lan {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	margin-left: auto;
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-left: 30px;
+}
+
+.header__nav__link {
+	text-decoration: none;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+._en {
+	color: rgba(255, 255, 255, 0.6);
+}

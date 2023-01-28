@@ -5,3 +5,18 @@
 	background-size: cover;
 	min-height: 900px;
 }
+
+.present__wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.present__title {
+	margin-top: 370px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 94px;
+	line-height: 100%;
+	color: #ffffff;
+}
