@@ -1,0 +1,30 @@
+.connection {
+	background: #121212;
+}
+
+.connection__wrap {
+	padding: 70px 0 70px;
+	display: flex;
+	flex-direction: column;
+	min-height: 900px;
+}
+
+.connection__title {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 80%;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+.connection__contact {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
+	margin: 70px 0 0;
+}
+
+.contact__adres {
+}
