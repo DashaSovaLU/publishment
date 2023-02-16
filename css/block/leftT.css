@@ -1,0 +1,58 @@
+.tpub {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	gap: 30px;
+	background: #f5f5f7;
+	border-radius: 12px;
+	max-width: 260px;
+	width: 100%;
+}
+
+.tpub__big-title {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 34px;
+	color: #000000;
+}
+
+.tpub__contact {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 15px;
+}
+
+.tpub__adres {
+	border-bottom: 1px solid #cdcdcd;
+	padding-bottom: 15px;
+}
+
+.tpub__adres:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.tpub__title {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 100%;
+	color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 10px;
+}
+
+.tpub__adres__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	color: #000000;
+}
+
+.tpub__tel,
+.tpub__mail {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	color: #000000;
+	text-decoration: none;
+}

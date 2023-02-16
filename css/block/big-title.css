@@ -1,10 +1,12 @@
 .big__t {
 	padding-top: 88px;
 	padding-bottom: 60px;
+	max-width: 1200px;
+	width: 100%;
 }
 
 .big__t__wrap {
-	max-width: 1200px;
+	max-width: 1167px;
 }
 
 .big__title {

@@ -1,0 +1,8 @@
+.postbig {
+	display: flex;
+	align-items: flex-start;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 0 88px;
+	gap: 40px;
+}

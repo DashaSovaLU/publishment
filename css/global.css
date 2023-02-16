@@ -1,18 +1,8 @@
 /* block */
-.block {
-	width: 100%;
+body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px;
-}
-
-.block__wrap {
-	width: 100%;
-	max-width: 1160px;
-}
-
-body {
 	font-family: "Inter";
 }
 

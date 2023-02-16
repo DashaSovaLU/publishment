@@ -1,12 +1,10 @@
 .header {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.header__wrap {
 	display: flex;
 	align-items: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	max-width: 1160px;
 }
 
 .header__nav__lan {
