@@ -14,7 +14,26 @@
 	font-style: normal;
 	font-weight: 600;
 	font-size: 190px;
-	line-height: 230px;
 	color: #000000;
 	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.big__title {
+		font-size: 15.86vw;
+		line-height: auto;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.big__t {
+		padding-top: 60px;
+		padding-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.big__t {
+		padding-top: 120px;
+	}
 }

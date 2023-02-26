@@ -6,3 +6,22 @@
 	margin: 0 0 88px;
 	gap: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+	.postbig {
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.postbig {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.postbig {
+		gap: 60px;
+		margin-bottom: 30px;
+	}
+}

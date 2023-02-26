@@ -57,3 +57,31 @@
 	line-height: 120%;
 	color: #000000;
 }
+
+@media screen and (max-width: 900px) {
+	.big__text {
+		font-size: 25px;
+	}
+
+	.item__list__section {
+		max-width: 100%;
+		gap: 18px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.big__text {
+		font-size: 20px;
+	}
+	.item__title {
+		font-size: 24px;
+	}
+
+	.item__text {
+		font-size: 18px;
+	}
+
+	.item__list {
+		gap: 20px;
+	}
+}
