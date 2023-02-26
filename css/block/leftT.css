@@ -24,6 +24,8 @@
 }
 
 .tpub__adres {
+	display: flex;
+	flex-direction: column;
 	border-bottom: 1px solid #cdcdcd;
 	padding-bottom: 15px;
 }
