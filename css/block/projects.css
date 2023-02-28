@@ -2,13 +2,11 @@
 	background: #121212;
 	border-radius: 40px 40px 0px 0px;
 	margin-top: -40px;
-}
-
-.projects__wrap {
-	padding: 70px 0 70px;
 	display: flex;
 	flex-direction: column;
-	min-height: 900px;
+	align-items: center;
+	padding: 70px 0;
+	width: 100%;
 }
 
 .projects__title {
@@ -18,13 +16,17 @@
 	font-size: 64px;
 	line-height: 100%;
 	color: #ffffff;
+	margin-bottom: 35px;
+	max-width: 1160px;
+	width: 100%;
 }
 
 .projects__list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 80px;
-	margin: 35px 0 0;
+	max-width: 1160px;
+	width: 100%;
 }
 
 .projects__list__section {

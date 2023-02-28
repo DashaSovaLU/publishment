@@ -1,17 +1,19 @@
 .present {
-	background-image: url(../../img/present/Frame\ 19.jpg);
-	background-position: bottom right;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 85px;
-}
-
-.present__wrap {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	background-image: url(../../img/present/Frame\ 19.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	min-height: 900px;
-	max-width: 1160px;
 	width: 100%;
+	padding-bottom: 85px;
+}
+.present__content {
+	display: flex;
+	flex-direction: column;
+	max-width: 1160px;
+	margin-top: 370px;
 }
 
 .present__title {
@@ -21,13 +23,7 @@
 	font-size: 94px;
 	line-height: 100%;
 	color: #ffffff;
-	margin: 0 0 10px;
-	padding-bottom: 35px;
-	margin: 0 0 35px;
-}
-
-.present__content {
-	margin-top: auto;
+	margin-bottom: 10px;
 }
 
 .present__text {
@@ -39,4 +35,8 @@
 	color: #ffffff;
 	margin: 0 0 30px;
 	max-width: 910px;
+}
+
+.present__btn {
+	align-self: flex-start;
 }

@@ -1,13 +1,10 @@
 .connection {
 	background: #121212;
-}
-
-.connection__wrap {
-	padding: 70px 0 70px;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 35px;
-	margin: 0 0 35px;
+	align-items: center;
+	padding: 70px 0;
+	width: 100%;
 }
 
 .connection__title {
@@ -20,12 +17,16 @@
 	border-bottom: 1px solid #ffffff;
 	padding-bottom: 35px;
 	margin: 0 0 35px;
+	max-width: 1160px;
+	width: 100%;
 }
 
 .connection__contact {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 100px;
+	max-width: 1160px;
+	width: 100%;
 }
 
 .contact__adres {
