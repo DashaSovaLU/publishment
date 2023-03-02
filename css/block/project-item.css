@@ -8,22 +8,64 @@
 	max-width: 1160px;
 	width: 100%;
 }
+.projects__item__knop {
+	position: relative;
+}
 
 .projects__item::-webkit-scrollbar {
 	width: 0;
 }
 
 .projects__item__section {
-	background: #1e1e1e;
+	background-color: #1e1e1e;
+	background-size: cover;
 	border-radius: 12px;
 	flex: none;
 	order: 1;
 	flex-grow: 0;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-end;
 	gap: 15px;
 	max-width: 275px;
 	width: 100%;
 	height: 370px;
 	padding: 20px;
+}
+
+.project__item__btn {
+	background: #ffffff;
+	border-radius: 30px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	right: -22px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 44px;
+	height: 44px;
+}
+
+.project__item__btn._left {
+	left: -22px;
+	right: auto;
+}
+
+.project__item__btn._left svg {
+	transform: rotate(180deg);
+}
+
+.item__title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 100%;
+	color: #ffffff;
+}
+
+.item__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 125%;
+	color: #ffffff;
 }
