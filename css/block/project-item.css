@@ -5,11 +5,12 @@
 	overflow: auto;
 	overflow-x: auto;
 	scrollbar-width: none;
-	max-width: 1160px;
 	width: 100%;
 }
 .projects__item__knop {
 	position: relative;
+	max-width: 1160px;
+	width: 100%;
 }
 
 .projects__item::-webkit-scrollbar {
@@ -68,4 +69,33 @@
 	font-size: 16px;
 	line-height: 125%;
 	color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+	.projects {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.project__item__btn {
+		right: -12px;
+	}
+	.project__item__btn._left {
+		left: -12px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.projects__title {
+		font-size: 52px;
+	}
+	.projects {
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.project__item__btn {
+		display: none;
+	}
 }
