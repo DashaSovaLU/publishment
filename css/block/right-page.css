@@ -44,14 +44,14 @@
 	gap: 10px;
 }
 
-.item__title {
+.item__title__white {
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 100%;
 	color: #000000;
 }
 
-.item__text {
+.item__text__white {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 120%;
@@ -73,11 +73,11 @@
 	.big__text {
 		font-size: 20px;
 	}
-	.item__title {
+	.item__title__white {
 		font-size: 24px;
 	}
 
-	.item__text {
+	.item__text__white {
 		font-size: 18px;
 	}
 

@@ -55,3 +55,21 @@
 	color: #ffffff;
 	margin: 20px 0 0;
 }
+
+@media screen and (max-width: 537px) {
+	.section__title {
+		font-size: 24px;
+	}
+	.section__text {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.projects__list {
+		flex-direction: column;
+	}
+	.projects__list__section {
+		width: 100%;
+	}
+}
